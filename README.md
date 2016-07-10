@@ -6,8 +6,7 @@ This is a situation i've observed with Dagger 2. Where if you have a subclass in
 
 
 Posting:
-
-1Information:Gradle tasks [clean, :app:generateDebugSources, :app:mockableAndroidJar, :app:prepareDebugUnitTestDependencies, :app:generateDebugAndroidTestSources, :app:compileDebugSources, :app:compileDebugUnitTestSources, :app:compileDebugAndroidTestSources, :othermodule:generateDebugSources, :othermodule:mockableAndroidJar, :othermodule:prepareDebugUnitTestDependencies, :othermodule:generateDebugAndroidTestSources, :othermodule:compileDebugSources, :othermodule:compileDebugUnitTestSources, :othermodule:compileDebugAndroidTestSources]
+`Information:Gradle tasks [clean, :app:generateDebugSources, :app:mockableAndroidJar, :app:prepareDebugUnitTestDependencies, :app:generateDebugAndroidTestSources, :app:compileDebugSources, :app:compileDebugUnitTestSources, :app:compileDebugAndroidTestSources, :othermodule:generateDebugSources, :othermodule:mockableAndroidJar, :othermodule:prepareDebugUnitTestDependencies, :othermodule:generateDebugAndroidTestSources, :othermodule:compileDebugSources, :othermodule:compileDebugUnitTestSources, :othermodule:compileDebugAndroidTestSources]
 /Users/patrykpoborca/Documents/consulting/plagrounds/app/build/generated/source/apt/debug/patrykpoborca/io/plagrounds/DaggerActivityComponent.java
 Error:(11, 50) error: cannot find symbol class ActivityModule_ProvidesBaseActivityFactory
 Error:Execution failed for task ':app:compileDebugJavaWithJavac'.
