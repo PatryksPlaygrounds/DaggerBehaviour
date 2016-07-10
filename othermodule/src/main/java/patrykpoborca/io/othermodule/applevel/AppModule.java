@@ -10,6 +10,7 @@ import dagger.Provides;
  * Created by patrykpoborca on 7/10/16.
  */
 
+@Module
 public class AppModule {
 
     private final Context context;
